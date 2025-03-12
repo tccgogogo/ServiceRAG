@@ -19,9 +19,9 @@ PROMPT_REWRITE_MASHUPS_PATH = "src/prompt/rewrite_mashups.txt"
 
 
 # 模型路径
-EMBED_MODEL_PATH = "/home/tiancongcong/model/all-MiniLM-L6-v2"
-RERANK_MODEL_PATH = "/home/tiancongcong/model/bge-reranker-v2-m3"
-LLM_MODEL_PATH = "/home/tiancongcong/model/Qwen2.5-14B-Instruct"
+EMBED_MODEL_PATH = "model/all-MiniLM-L6-v2"
+RERANK_MODEL_PATH = "model/bge-reranker-v2-m3"
+LLM_MODEL_PATH = "model/Qwen2.5-14B-Instruct"
 
 # 向量数据库配置
 VECTORDB_DIR = "./servicegraphreco/graph/FAISS_DB"
@@ -40,7 +40,7 @@ FINAL_API_LIST_MAX = 50
 
 # OpenAI API配置
 OPENAI_BASE_URL = "http://localhost:8002/v1"
-OPENAI_API_KEY = "tcc123"
+OPENAI_API_KEY = "xxxx"
 
 # 评估配置
 MAX_RETRY_COUNT = 20

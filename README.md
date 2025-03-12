@@ -44,7 +44,7 @@ python main.py
 ## Project Structure
 
 ```
-graph-rag/
+ServiceRAG/
 ├── config.py                     # Configuration file
 ├── main.py                       # Main program entry
 ├── semantic_enrichment.py        # semantic enrichment module
